@@ -9,7 +9,7 @@ It also has evil-surround, which is the same as vim-surround and I also fixed th
 # Installation
 Git clone this repo into your ~/.config/emacs directory and then run emacs.
 
-git clone https://github.com/Abdulsarhan/emacsconfig/
+git clone https://github.com/Abdulsarhan/emacsconfig
 
 ## Dependencies
 You need to have a nerd font for the icons to render correctly.

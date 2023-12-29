@@ -23,6 +23,7 @@ Some of these features include:
 - A dashboard that shows you your recent files, projects and bookmarks.
 - general, for general keybindings.
 - evil mode, for vim keybindings.
+  
 and many more that I just can't remember.
 
 Happy editing!

@@ -42,6 +42,7 @@ If you want emacs to start as a daemon when you log in, add the following to you
 emacs --daemon
 ```
 If that doesn't work, you can start emacs automatically by making a systemd service. 
+
 This page will teach you all about that: https://www.emacswiki.org/emacs/EmacsAsDaemon
 # Keybindings
 The keybindings are under the general-keybindings section of the config.org file. 

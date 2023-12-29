@@ -16,7 +16,7 @@ This config has a lot of features.
 If you just want a basic text editor, this config is not for you. 
 Even for those of you who like having a few extra features on top of your basic emacs experience, you still might want to disable a LOT of features. 
 Just remove the packages that you don't like by removing the "use-package" statement for the package(s) that you want to remove and remove their associated keybindings under general keybindings. 
-some of these features include: 
+Some of these features include: 
 - An RSS reader.
 - A terminal.
 - An application launcher.

@@ -5,7 +5,7 @@ With the only major difference being is that it uses nerd-icons instead of all-t
 
 # Dependencies
 You need to have a nerd font for the icons to render correctly. 
-If you're using a good linux distro, you can just type "sudo pacman -Ss nerd fonts library", and you will get a list of all the nerd fonts that work with this config and you could install them just by running "sudo pacman -S **FONT_NAME**". On inferior distros, you could do the same thing, but I don't know the commands on those distros; I don't use them. You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com), but I find that it's just easier to use the package manager for this. 
+If you're using a good linux distro, you can just type "sudo pacman -Ss nerd fonts library", and you will get a list of all the nerd fonts that work with this config and you could install them just by running "sudo pacman -S * *FONT_NAME* *". On inferior distros, you could do the same thing, but I don't know the commands on those distros; I don't use them. You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com), but I find that it's just easier to use the package manager for this. 
 
 ## Keybindings
 The keybindings should be fairly easy to understand. Just read the config file. You're probably not going to use most of the bindings, I don't either. I copied a lot of them from dt's config and I am just too lazy to remove them right now.

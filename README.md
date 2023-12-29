@@ -76,7 +76,7 @@ Some of these features include:
 - Evil mode, for vim keybindings.
 - Some Evil mode related plugins for added productivity.
 - Avy-go-to char, which is like [nvim.leap](https://github.com/ggandor/leap.nvim). Easily the best way to move your cursor exactly where you want on the screen.
-- Multiple-Cursors.
+- Evil-mc. Multiple-cursors plugin that plays well with Evil mode.
 - A few org mode pluggins which make org mode better.
   
 And a few more that I either can't remember, or I will be adding in the future. This config is a work in progress for me, so I will be changing it bit by bit to suit my needs better. You will be informed of all the changes. 

@@ -6,7 +6,11 @@ with the only major difference being is that it uses nerd-icons instead of all-t
 
 It also has evil-surround, which is the same as vim-surround and I also fixed the CTRL + U vim keybinding which doesn't work right in the original config made by DT for some reason. 
 
-# Dependencies
+# Installation
+Git clone this repo into your ~/.config/emacs directory and then run emacs.
+git clone https://github.com/Abdulsarhan/emacsconfig/
+
+## Dependencies
 You need to have a nerd font for the icons to render correctly.
 
 If you're using a good linux distro, you can just type "sudo pacman -Ss nerd fonts library", and you will get a list of all the nerd fonts that work with this config and you could install them just by running "sudo pacman -S *FONT_NAME* ".
@@ -40,7 +44,8 @@ Some of these features include:
 - General, for general keybindings.
 - Evil mode, for vim keybindings.
 - Avy-go-to char, which is like nvim.leap.
-- Multiple-Cursors
+- Multiple-Cursors.
+- Better org-mode with org-bullets
   
 And a few more that I either can't remember, or I will be adding in the future. This config is a work in progress for me, so I will be changing it bit by bit to suit my needs better. You will be informed of all the changes. 
 

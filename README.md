@@ -6,6 +6,8 @@ with the only major difference being is that it uses nerd-icons instead of all-t
 
 It also has evil-surround, which is the same as vim-surround and I also fixed the CTRL + U vim keybinding which doesn't work right in the original config made by DT for some reason. 
 
+All the configuration is done inside of the config.org file, with the exception of three scripts that are required by the config.org file. They can be found in the scripts folder. 
+
 # Dependencies
 You need to have a nerd font for the icons to render correctly.
 

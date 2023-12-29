@@ -11,12 +11,12 @@ You need to have a nerd font for the icons to render correctly.
 
 If you're using a good linux distro, you can just type 
 ```
-sudo pacman -Ss nerd fonts library```
-
+sudo pacman -Ss nerd fonts library
+```
 And you will get a list of all the nerd fonts that work with this config and you could install them just by running: 
 ```
-sudo pacman -S *FONT_NAME*```
-
+sudo pacman -S *FONT_NAME*
+```
 On inferior distros, you could do the same thing, but I don't know the commands of bad distros because I don't use them.
 
 You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com) but I find that it's just easier to use the package manager for this. 

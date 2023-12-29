@@ -25,7 +25,7 @@ You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.
 # Installation
 Clone this repo into your ~/.config/emacs directory and then run emacs.
 ```
-git clone https://github.com/Abdulsarhan/emacsconfig
+git clone https://github.com/abdulsarhan/emacsconfig
 ```
 
 ## Keybindings

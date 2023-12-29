@@ -18,7 +18,8 @@ And then install them by running:
 ```
 sudo pacman -S *FONT_NAME*
 ```
-On inferior distros, you could do the same thing, but I don't know the commands of bad distros because I don't use them.
+On inferior distros, you might be able to do the same thing, but I don't know the commands of bad distros because I don't use them.
+
 
 You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com) but I find that it's just easier to use the package manager for this. 
 

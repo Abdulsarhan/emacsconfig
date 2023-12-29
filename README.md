@@ -8,6 +8,8 @@ It also has evil-surround, which is the same as vim-surround and I also fixed th
 
 All the configuration is done inside of the config.org file, with the exception of three scripts that are required by the config.org file. They can be found in the scripts folder. The early-init.el and init.el files are only used to start the config.org file. 
 
+This config is quite heavy, arround 65 packages. The load times are not the best because of this. But this isn't a problem if you start emacs as a daemon, which I will teach you how to do during the installation process.
+
 # Dependencies
 You need to have a nerd font for the icons to render correctly.
 
@@ -31,6 +33,16 @@ Clone this repo into your ~/.config/emacs directory and then run emacs.
 git clone https://github.com/abdulsarhan/emacsconfig
 ```
 
+If you want faster load times, I suggest running emacs as a daemon. You could do this manually by typing the following into your terminal or an application launcher: 
+```
+emacs --daemon
+```
+If you want emacs to start as a daemon when you log in, add the following to your bashrc:
+```
+emacs --daemon
+```
+If that doesn't work, you can start emacs automatically by making a systemd service. 
+This page will teach you all about that: https://www.emacswiki.org/emacs/EmacsAsDaemon
 # Keybindings
 The keybindings are under the general-keybindings section of the config.org file. 
 

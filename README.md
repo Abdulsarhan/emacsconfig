@@ -11,7 +11,9 @@ All the configuration is done inside of the config.org file, with the exception 
 This config is quite heavy, arround 65 packages. The load times are not the best because of this. But this isn't a problem if you start emacs as a daemon, which I will teach you how to do during the installation process.
 
 # Dependencies
-You need to have a nerd font for the icons to render correctly.
+Obviously, you need to have emacs installed. 
+
+You also need to have a nerd font for the icons to render correctly.
 
 If you're using a good linux distro, you can just type the following to get a list of all 
 the nerd fonts that you can install:
@@ -33,10 +35,12 @@ Clone this repo into your ~/.config/emacs directory and then run emacs.
 git clone https://github.com/abdulsarhan/emacsconfig
 ```
 
-If you want faster load times, I suggest running emacs as a daemon. You could do this manually by typing the following into your terminal or an application launcher: 
+If you want faster load times, I suggest running emacs as a daemon. This is also know as "starting an emacs server". You could do this manually by typing the following into your terminal or an application launcher: 
 ```
 emacs --daemon
 ```
+After that, you can connect to this daemon/server by running emacsclient, which is a separate binary from emacs that is included in the emacs package when you installed emacs.
+
 If you want emacs to start as a daemon when you log in, add the following to your bashrc:
 ```
 emacs --daemon

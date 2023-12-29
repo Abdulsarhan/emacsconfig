@@ -1,7 +1,7 @@
 # About
 This is an emacs config that uses the elpaca package manager and evil mode. So, if you like broken pinkys this isn't for you. 
 This config is a slightly modified fork of DT's config. 
-With the only major difference being is that it uses nerd-icons instead of all-the-icons. I did this so that I could use the symbols included with nerd fonts with my emacs config. 
+With the only major difference being is that it uses nerd-icons instead of all-the-icons. I did this so that I could use the symbols included with nerd fonts with my emacs config. It also has evil-surround, which is the same as vim-surround and I also fixed the CTRL + U vim keybinding which doesn't work right in the original config made by DT for some reason. 
 
 # Dependencies
 You need to have a nerd font for the icons to render correctly. 

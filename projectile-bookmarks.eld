@@ -1,1 +1,1 @@
-("~/.local/src/suckless/sent/")
+

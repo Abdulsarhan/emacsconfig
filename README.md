@@ -29,7 +29,7 @@ Clone this repo into your ~/.config/emacs directory and then run emacs.
 git clone https://github.com/abdulsarhan/emacsconfig
 ```
 
-## Keybindings
+# Keybindings
 The keybindings should be fairly easy to understand.
 Read the general-keybindings section of the config.org file. 
 
@@ -37,7 +37,7 @@ You're probably not going to use most of the keybindings, I don't either. I copi
 
 some of the keybindings are commented out becuase I don't use them anymore, but they would work just fine if you remove the comments. 
 
-## Features
+# Features
 This config has a lot of features.
 
 If you just want a basic text editor, this config is not for you. 

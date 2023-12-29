@@ -6,7 +6,7 @@ with the only major difference being is that it uses nerd-icons instead of all-t
 
 It also has evil-surround, which is the same as vim-surround and I also fixed the CTRL + U vim keybinding which doesn't work right in the original config made by DT for some reason. 
 
-## Dependencies
+# Dependencies
 You need to have a nerd font for the icons to render correctly.
 
 If you're using a good linux distro, you can just type the following to get a list of all 

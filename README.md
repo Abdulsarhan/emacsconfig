@@ -6,19 +6,23 @@ with the only major difference being is that it uses nerd-icons instead of all-t
 
 It also has evil-surround, which is the same as vim-surround and I also fixed the CTRL + U vim keybinding which doesn't work right in the original config made by DT for some reason. 
 
+## Dependencies
+You need to have a nerd font for the icons to render correctly.
+
+If you're using a good linux distro, you can just type 
+```sudo pacman -Ss nerd fonts library```
+and you will get a list of all the nerd fonts that work with this config and you could install them just by running 
+```sudo pacman -S *FONT_NAME*```
+
+On inferior distros, you could do the same thing, but I don't know the commands of bad distros because I don't use them.
+
+You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com) but I find that it's just easier to use the package manager for this. 
+
 # Installation
 Clone this repo into your ~/.config/emacs directory and then run emacs.
 ```
 git clone https://github.com/Abdulsarhan/emacsconfig
 ```
-## Dependencies
-You need to have a nerd font for the icons to render correctly.
-
-If you're using a good linux distro, you can just type "sudo pacman -Ss nerd fonts library", and you will get a list of all the nerd fonts that work with this config and you could install them just by running "sudo pacman -S *FONT_NAME* ".
-
-On inferior distros, you could do the same thing, but I don't know the commands of bad distros because I don't use them.
-
-You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com) but I find that it's just easier to use the package manager for this. 
 
 ## Keybindings
 The keybindings should be fairly easy to understand.

@@ -39,7 +39,7 @@ If you want faster load times, I suggest running emacs as a daemon. This is also
 ```
 emacs --daemon
 ```
-After that, you can connect to this daemon/server by running emacsclient, which is a separate binary from emacs that is included in the emacs package when you installed emacs.
+After that, you can connect to this local daemon/server by running emacsclient, which is a separate binary from emacs that is included in the emacs package when you installed emacs.
 
 If you want emacs to start as a daemon when you log in, add the following to your bashrc:
 ```

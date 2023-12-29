@@ -30,12 +30,11 @@ git clone https://github.com/abdulsarhan/emacsconfig
 ```
 
 # Keybindings
-The keybindings should be fairly easy to understand.
-Read the general-keybindings section of the config.org file. 
+The keybindings are under the general-keybindings section of the config.org file. 
 
 You're probably not going to use most of the keybindings, I don't either. I copied a lot of them from dt's config and I am just too lazy to remove them right now.
 
-some of the keybindings are commented out becuase I don't use them anymore, but they would work just fine if you remove the comments. 
+Some of the keybindings are commented out becuase I don't use them anymore, but they would work just fine if you remove the comments. 
 
 # Features
 This config has a lot of features.

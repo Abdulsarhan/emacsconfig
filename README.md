@@ -10,7 +10,7 @@ It also has evil-surround, which is the same as vim-surround and I also fixed th
 You need to have a nerd font for the icons to render correctly.
 
 If you're using a good linux distro, you can just type the following to get a list of all 
-the nerd fonts that you can install.
+the nerd fonts that you can install:
 ```
 sudo pacman -Ss nerd fonts library
 ```

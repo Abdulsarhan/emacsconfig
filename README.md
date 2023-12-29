@@ -7,7 +7,7 @@ with the only major difference being is that it uses nerd-icons instead of all-t
 It also has evil-surround, which is the same as vim-surround and I also fixed the CTRL + U vim keybinding which doesn't work right in the original config made by DT for some reason. 
 
 # Installation
-Git clone this repo into your ~/.config/emacs directory and then run emacs.
+Clone this repo into your ~/.config/emacs directory and then run emacs.
 ```
 git clone https://github.com/Abdulsarhan/emacsconfig
 ```

@@ -41,7 +41,7 @@ emacs --daemon
 ```
 After that, you can connect to this local daemon/server by running emacsclient, which is a separate binary from emacs that is included in the emacs package when you installed emacs.
 
-If you want emacs to start as a daemon when you log in, add the following to your bashrc:
+If you want emacs to automatically start as a daemon when you log in, add the following to your bashrc:
 ```
 emacs --daemon
 ```

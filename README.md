@@ -15,6 +15,7 @@ This config is quite heavy, around 65 packages. The load times are not the best 
 # Dependencies
 ## Emacs
 You can install emacs using your favourite package manager.
+
 Arch linux:
 ```
 sudo pacman -S emacs
@@ -22,6 +23,7 @@ sudo pacman -S emacs
 ## Cmake
 You can get cmake from your package manager.
 cmake is required to compile vterm (the terminal emulator inside emacs)
+
 Arch linux:
 ```
 sudo pacman -S cmake

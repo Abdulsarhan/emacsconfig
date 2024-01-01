@@ -13,8 +13,20 @@ All the configuration is done inside of the config.org file, with the exception 
 This config is quite heavy, around 65 packages. The load times are not the best because of this. But this isn't a problem if you start emacs as a daemon, which I will teach you how to do during the installation process.
 
 # Dependencies
-Obviously, you need to have emacs installed. 
-
+## Emacs
+You can install emacs using your favourite package manager.
+Arch linux:
+```
+sudo pacman -S emacs
+```
+## Cmake
+You can get cmake from your package manager.
+cmake is required to compile vterm (the terminal emulator inside emacs)
+Arch linux:
+```
+sudo pacman -S cmake
+```
+## Nerd Fonts
 You also need to have a nerd font for the icons to render correctly.
 
 If you're using a good linux distro, you can just type the following to get a list of all 

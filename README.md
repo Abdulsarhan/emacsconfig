@@ -38,7 +38,7 @@ sudo pacman -Ss nerd fonts library
 ```
 And then install them by running:
 ```
-sudo pacman -S *name-of-font*
+sudo pacman -S _name-of-font_
 ```
 On inferior distros, you might be able to do the same thing, but I don't know the commands of bad distros because I don't use them.
 

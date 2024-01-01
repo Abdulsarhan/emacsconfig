@@ -32,9 +32,11 @@ On inferior distros, you might be able to do the same thing, but I don't know th
 You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com) but I find that it's just easier to use the package manager for this. 
 
 # Installation
-Clone this repo into your ~/.config/emacs directory and then run emacs.
+Clone this repo into your ~/.config directory, rename it to emacs and then run emacs.
 ```
+cd ~/.config
 git clone https://github.com/abdulsarhan/emacsconfig
+mv emacsconfig emacs
 ```
 
 If you want faster load times, I suggest running emacs as a daemon. This is also know as "starting an emacs server". You could do this manually by typing the following into your terminal or an application launcher: 

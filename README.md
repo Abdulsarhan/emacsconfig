@@ -31,17 +31,6 @@ sudo pacman -S cmake
 ## Nerd Fonts
 You also need to have a nerd font for the icons to render correctly.
 
-If you're using a good linux distro, you can just type the following to get a list of all 
-the nerd fonts that you can install:
-```
-sudo pacman -Ss nerd fonts library
-```
-And then install them by running:
-```
-sudo pacman -S name-of-font
-```
-On inferior distros, you might be able to do the same thing, but I don't know the commands of bad distros because I don't use them.
-
 
 You can also install the fonts manually from [Nerd Fonts](https://www.nerdfonts.com) but I find that it's just easier to use the package manager for this. 
 
